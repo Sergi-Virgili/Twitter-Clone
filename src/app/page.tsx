@@ -8,7 +8,9 @@ export default async function Home () {
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       Hello
       <pre>
-        {JSON.stringify(posts, null, 2)}
+        {
+        JSON.stringify(posts, null, 2)
+        }
       </pre>
     </main>
   )
